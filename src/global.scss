@@ -25,13 +25,65 @@
 @import "@ionic/angular/css/text-transformation.css";
 @import "@ionic/angular/css/flex-utils.css";
 
+
+
 /**
- * Ionic Dark Mode
- * -----------------------------------------------------
- * For more info, please see:
- * https://ionicframework.com/docs/theming/dark-mode
- */
+* Ionic Dark Mode
+* -----------------------------------------------------
+* For more info, please see:
+* https://ionicframework.com/docs/theming/dark-mode
+*/
 
 /* @import "@ionic/angular/css/palettes/dark.always.css"; */
 /* @import "@ionic/angular/css/palettes/dark.class.css"; */
 @import "@ionic/angular/css/palettes/dark.system.css";
+
+:root{
+    --ion-font-family:"Poppins",sans-serif;
+
+}
+
+body{
+    font-family: "poppins",sans-serif;
+    background-color: aliceblue;
+    margin: 0%;
+    padding: 0%;
+    height: 100%;
+    width: 100%;
+}
+
+.button-expand {
+    width: 100%;
+    margin: 0 auto; /* Untuk membuat tombol berada di tengah */
+  }
+  
+  .icon {
+    margin-right: 5px; /* Space between icon and input */
+    font-size: 24px;
+    height: auto    ;
+  }
+
+  .input {
+    width: 100%;
+    padding-left: 35px; /* Ensure padding accounts for the icon size and margin */
+    border: none;
+    outline: none;
+    font-size: 16px;
+    box-sizing: border-box;
+  }
+
+  .container{
+    display: flex;
+    justify-content: center;
+    /* align-items: ; */
+    height: auto;
+  }
+
+  .horizontal-line {
+    border-top: 1px solid #dcdcdc; /* Ubah warna dan ketebalan sesuai kebutuhan */
+    margin: 20px 0; /* Margin atas dan bawah */
+    // margin-bottom: 3px;
+  }
+
+  
+  

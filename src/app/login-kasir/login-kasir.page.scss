@@ -1,0 +1,99 @@
+
+
+
+.ion-input {
+    // --border-width: px; /* Menghilangkan border */
+    --highlight-height: 2px; /* Menghilangkan highlight saat input dipilih */
+  }
+  .custom-input {
+    --border-color: #ccc; /* Warna border */
+    --border-width: 1px; /* Lebar border */
+    --border-radius: 8px; /* Radius border */
+    --padding-start: 16px;
+  }
+      .container{
+        display: flex;
+        justify-content: center;
+        /* align-items: ; */
+        height: auto;
+      }
+      
+  
+      .pading-bottom{
+        padding-bottom: 3%;
+      }
+      .padding-space{
+        padding-top: 3%;
+        padding-bottom: 3%;
+      }
+  
+      // .horizontal-line {
+      //   border-top: 2px solid #4bb543; /* Ubah warna dan ketebalan sesuai kebutuhan */
+      //   margin: 20px 0; /* Margin atas dan bawah */
+      // }
+  
+      .text-center-line {
+        display: flex;
+        align-items: center;
+        text-align: center;
+        width: 100%;
+    }
+    
+    .text-center-line::before,
+    .text-center-line::after {
+        content: '';
+        flex: 1;
+        border-bottom: 1px solid #b5a8a8;
+        // border-bottom: 1px solid #b5a8a8;
+    }
+    
+    .text-center-line:not(:empty)::before {
+        margin-right: .25em;
+    }
+    
+    .text-center-line:not(:empty)::after {
+        margin-left: .25em;
+    }
+  
+  
+      // * === Dafont === *
+      @font-face {
+          font-family: 'bubblegun';
+          src: url(../fonts/bubblegun.ttf) format('truetype');
+      }
+      
+      .body {
+          font-family: 'bubblegun', sans-serif;
+      }
+  .logo{
+    height: 150px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+ 
+  
+    .custom-card {
+  
+      width: 90%; /* Lebar card menjadi 90% dari kontainer */
+      height: 700px; /* Tinggi card tetap */
+      margin-top: 50px; /* Card ditengah-tengah secara horizontal */
+      // margin-left: 10; /* Card ditengah-tengah secara horizontal */
+    }
+  
+    .ion-icon {
+      font-size: 0.5em; /* Mengurangi ukuran ikon menjadi setengah dari ukuran default */
+    }
+  
+    .card {
+      width: 100%;
+      max-width: 300px; /* Atur lebar maksimal */
+      aspect-ratio: 3 / 2; /* Menjaga rasio aspek 3:2 */
+      // background-color: #008f05;
+      // border: 1px solid #ccc;
+      box-sizing: border-box;
+      padding: 16px;
+      margin-top: 10px;
+    }
+    
